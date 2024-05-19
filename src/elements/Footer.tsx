@@ -7,7 +7,7 @@ export function Footer() {
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
-              <a href="https://flowbite.com/" className="flex items-center">
+              <a href="#" className="flex items-center">
                 <img src={icon} className="h-8 me-3" alt="FlowBite Logo" />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                   Matheshraju
@@ -22,7 +22,7 @@ export function Footer() {
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li className="mb-4">
                     <a
-                      href="https://github.com/themesberg/flowbite"
+                      href="https://github.com/Matheshraju4"
                       className="hover:underline "
                     >
                       Twitter
@@ -30,7 +30,7 @@ export function Footer() {
                   </li>
                   <li>
                     <a
-                      href="https://discord.gg/4eeurUVvTy"
+                      href="https://www.linkedin.com/in/matheshraju/"
                       className="hover:underline"
                     >
                       Linkedin
@@ -39,7 +39,7 @@ export function Footer() {
 
                   <li className="p-4">
                     <a
-                      href="https://discord.gg/4eeurUVvTy"
+                      href="https://www.instagram.com/mathesh_raju/"
                       className="hover:underline"
                     >
                       Instagram
@@ -53,7 +53,10 @@ export function Footer() {
                 </h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li className="mb-4">
-                    <a href="#" className="hover:underline">
+                    <a
+                      href="https://github.com/Matheshraju4"
+                      className="hover:underline"
+                    >
                       Github
                     </a>
                   </li>
@@ -67,7 +70,7 @@ export function Footer() {
             </div>
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-          <div className="sm:flex sm:items-center sm:justify-between">
+          {/* <div className="sm:flex sm:items-center sm:justify-between">
             <div className="flex mt-4 sm:justify-center sm:mt-0">
               <a
                 href="#"
@@ -161,7 +164,7 @@ export function Footer() {
                 <span className="sr-only">Dribbble account</span>
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </footer>
     </>

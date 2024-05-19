@@ -10,7 +10,7 @@ export function Card(props: content) {
     <>
       <div className=" margintop max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
         <a href="#">
-          <img className="rounded-t-lg " src={props.image} alt="" />
+          <img className="rounded-lg p-5  " src={props.image} alt="" />
         </a>
         <div className="p-5">
           <a href="#">
