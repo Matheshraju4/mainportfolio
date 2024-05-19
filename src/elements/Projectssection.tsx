@@ -1,8 +1,8 @@
 import { Card } from "./Card";
-import iworkforyou from "../images/Iworkforyoumain.avif";
-import todo from "../images/2344032daee640a8846990fb18569b64.jpeg";
+import landscape from "/landscape.jpg";
+import blog from "/blog.jpg";
 
-import consistenttrade from "../images/1699240346690.jpg";
+import consistenttrade from "/consistenttrade.jpg";
 
 export function Projectssection() {
   let contenttodisplayed = [
@@ -10,17 +10,20 @@ export function Projectssection() {
       image: consistenttrade,
       Heading: "ConsistentTrade",
       Description: "A website to set FinancialTarget and hels to acheive it ",
+      url: "https://consistenttrade.2apps.online/",
     },
     {
-      image: iworkforyou,
-      Heading: "I WorkforYou",
-      Description: "A application which Buy and sell Automatically for you ",
+      image: landscape,
+      Heading: "Cr LandScape",
+      Description: "A website for Landscape business",
+      url: "https://landscape.2apps.online/",
     },
     {
-      image: todo,
-      Heading: "TaskMate",
+      image: blog,
+      Heading: "Learn Law",
       Description:
-        "Simplify task management, enhance productivity with intuitive Todo application",
+        "A  Blog website to help people to learn law and make a good decision",
+      url: "https://learnlaw.2apps.online/",
     },
   ];
 
